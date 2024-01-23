@@ -1,0 +1,15 @@
+{
+  "extends": "@ollion/ts-config/index.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": ".cache/tsbuild",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "vueCompilerOptions": {
+    "target": 3
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/**/*.js"],
+  "exclude": ["node_modules", "dist", "coverage", "cypress"]
+}

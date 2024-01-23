@@ -1,0 +1,25 @@
+{
+  "name": "f-table-sandbox",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@ollion/flow-core": "^2.7.7",
+    "@ollion/flow-system-icon": "^1.16.1",
+    "@ollion/flow-table": "^2.2.4",
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@ollion/ts-config": "^2.1.0",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
+  }
+}
