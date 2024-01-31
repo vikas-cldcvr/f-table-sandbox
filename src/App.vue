@@ -19,7 +19,9 @@
         <f-tcell>{{ row.email }}</f-tcell>
         <f-tcell>{{ row.jobTitle }}</f-tcell>
         <f-tcell>{{ row.address }}</f-tcell>
-        <f-div slot="details"> <DetailsSlot v-if="row.isOpen" /></f-div>
+        <f-div slot="details" width="100%">
+          <DetailsSlot v-if="row.isOpen"
+        /></f-div>
       </f-trow>
     </f-table>
   </f-div>
