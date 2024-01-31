@@ -1,8 +1,11 @@
 <template>
-  <f-div padding="large" direction="column" width="100%" max-height="300px">
+  <f-div padding="medium" state="secondary">
     <f-table-schema
       v-if="tableData"
+      sticky-cell-background="secondary"
+      variant="underlined"
       :data="tableData"
+      sticky-header
       :show-search-bar="false"
     ></f-table-schema>
   </f-div>
@@ -51,6 +54,7 @@ onMounted(() => {
       },
       address: {
         value: "Address",
+        width: "300px",
       },
     },
   };
